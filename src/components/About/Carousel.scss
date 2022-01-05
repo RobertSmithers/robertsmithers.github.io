@@ -1,0 +1,106 @@
+// #carousel {
+//   overflow: hidden;
+//   position: relative;
+//   height: 300px;
+//   width: 100%;
+//   padding-top: 50px;
+//   padding-bottom: 0px;
+// }
+
+$carousel-offset: -50%;
+$carousel-gap: 60%;
+$offscreen-gap: 100%;
+
+$item-center-scale: 1.25;
+$item-side-scale: 0.75;
+$item-out-scale: 0.25;
+$enter-out-distance: 5%;
+$carousel-speed: 0.8s;
+
+$level-1-left: 60%;
+$level0-left: 32%;
+$level1-left: 4%;
+
+.carousel-item {
+  position: absolute;
+  transform-origin: center;
+  transition: transform $carousel-speed, opacity $carousel-speed;
+  left: 50%;
+  transform: translateX($carousel-offset);
+  will-change: transform;
+}
+
+.level-1 {
+  z-index: 9;
+  transform: translateX($carousel-offset - $carousel-gap)
+    scale($item-side-scale);
+}
+
+.level0 {
+  z-index: 10;
+  transform: translateX($carousel-offset) scale($item-center-scale);
+}
+
+.level1 {
+  z-index: 9;
+  transform: translateX($carousel-offset + $carousel-gap)
+    scale($item-side-scale);
+}
+
+// When Tiles move to the right
+.left-enter {
+  opacity: 0;
+  transform: translateX($carousel-offset + $offscreen-gap)
+    scale($item-out-scale);
+}
+
+.left-enter.left-enter-active {
+  opacity: 1;
+  transform: translateX($carousel-offset + $carousel-gap)
+    scale($item-side-scale);
+  transition: transform $carousel-speed, opacity $carousel-speed;
+}
+
+.left-leave {
+  z-index: 1;
+  opacity: 1;
+  transform: translateX($carousel-offset - $carousel-gap)
+    scale($item-side-scale);
+}
+
+.left-leave.left-leave-active {
+  z-index: 1;
+  opacity: 0;
+  transform: translateX($carousel-offset - $offscreen-gap)
+    scale($item-out-scale);
+  transition: transform $carousel-speed, opacity $carousel-speed;
+}
+
+// When times move to the left
+.right-enter {
+  opacity: 0;
+  transform: translateX($carousel-offset - $offscreen-gap)
+    scale($item-out-scale);
+}
+
+.right-enter.right-enter-active {
+  opacity: 1;
+  transform: translateX($carousel-offset - $carousel-gap)
+    scale($item-side-scale);
+  transition: transform $carousel-speed opacity $carousel-speed;
+}
+
+.right-leave {
+  z-index: 1;
+  opacity: 1;
+  transform: translateX($carousel-offset + $carousel-gap)
+    scale($item-side-scale);
+}
+
+.right-leave.right-leave-active {
+  z-index: 1;
+  opacity: 0;
+  transform: translateX($carousel-offset + $offscreen-gap)
+    scale($item-out-scale);
+  transition: transform $carousel-speed, opacity $carousel-speed;
+}
