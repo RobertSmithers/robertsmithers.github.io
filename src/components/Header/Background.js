@@ -8,7 +8,7 @@ import FadeIn from "../../components/generic/FadeIn";
 
 import Cubes from "../../components/Header/Cubes";
 
-import Logo from "../../assets/bg-logo-foreground.png";
+// import Logo from "../../assets/bg-logo-foreground.png";
 
 const StyledHeaderBg = styled.div`
   overflow-x: hidden;
@@ -78,7 +78,7 @@ class HeaderBg extends Component {
           height={window.innerHeight}
           delay={animationTimings.loadDelay + 0}
         >
-          <img draggable="false" src={Logo} />
+          {/* <img draggable="false" src={Logo} /> */}
         </LogoWrapper>
       </StyledHeaderBg>
     );
