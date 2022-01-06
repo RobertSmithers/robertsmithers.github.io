@@ -71,7 +71,7 @@ const SocialButtons = () => {
         <img alt="github" draggable="false" src={github} />
       </StyledIcon>
       <StyledIcon
-        href="https://www.linkedin.com/in/robertsmithers/"
+        href="https://www.linkedin.com/in/robert-smithers/"
         target="_blank"
       >
         <img alt="linkedin" draggable="false" src={linkedin} />

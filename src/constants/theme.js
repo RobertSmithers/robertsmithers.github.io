@@ -20,10 +20,22 @@ const colors = {
   gray: "rgb(140, 140, 140)",
   darksnow: "rgb(120, 120, 120)",
 
-  // main1 = darksnow, main2 = gray2, main3 = creme
-  main1: "rgb(120, 120, 120)",
+  // Olive green, gray
+  olivegreen1: "#1f1f00",
+  olivegreen2: "#556b2f",
+
+  // main1 = oxfordblue, main2 = gray2, main3 = creme
+  main1: "rgb(0,33,71)",
   main2: "rgb(230, 230, 230)",
   main3: "#f9f9f4",
+  maindark: "#f9f9f4",
+
+  // Bird fauna sky 6 (https://icolorpalette.com/imagepalette/bird_fauna_sky-6)
+  gray: "#666a70",
+  blue1: "#447ebe",
+  blue2: "#4c8ccb",
+  blue3: "#a3c4e1",
+  brown: "#543935",
 
   //Paletton color schema: Blue, Green, Purple
   primary1: "#3B71DB",

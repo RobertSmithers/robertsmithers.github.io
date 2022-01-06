@@ -41,12 +41,11 @@ const Projects = () => {
         title="Predicting Solubility"
         date="November 2021"
         image={solubilityPrediction}
-        description="TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD "
-        // Reinvents the obsolete housing selection system at Boston College with a React,
-        // Node, and MongoDB single page web application. Features Beautiful and interactive map interface
-        // where students can navigate to buildings and rooms of choice. Accommodates live room picking,
-        // giving students real time feedback during the selection process. 🏆 Won best UI/UX at BC's 
-        // Hack The Heights 2018 hackathon.
+        description="Predicting the solubility rate of a molecule is no easy task,
+        especially when only given chemical formulas. In this project, see how I
+        generated data using quantum-mechanic libraries MOPAC and ASE and trained a
+        custom Graph Neural Network. This project has heavy application to future pharmaceutical
+        research, medical breakthroughs, and efficiency in the oil industry."
         website=""
         github="https://github.com/RobertSmithers/PredictingSolubility"
         readMore=""
@@ -153,7 +152,11 @@ const Projects = () => {
         title="Digit Recognizer"
         date="November 2018"
         image={digitRecognizer}
-        description="TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD "
+        description="This is where my passion for computer science first started. I keep this
+        project on my website for memory's sake! This high school endeavor was
+        my first look at using artificial intelligence for classification. Given an image
+        of a drawn number, the model predicts which single digit is drawn. Color distortion and edge-detection
+        is applied in pre-processing."
         website=""
         github="https://github.com/RobertSmithers/DigitRecognizer"
         readMore=""

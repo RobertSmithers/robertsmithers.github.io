@@ -8,6 +8,8 @@ import FadeIn from "../../components/generic/FadeIn";
 
 import Cubes from "../../components/Header/Cubes";
 
+// import backgroundImg from "../../assets/background.png";
+// import mainImg from "../../assets/foregroundImage.jpeg";
 // import Logo from "../../assets/bg-logo-foreground.png";
 
 const StyledHeaderBg = styled.div`
@@ -20,6 +22,14 @@ const StyledHeaderBg = styled.div`
 
   width: 100vw;
   height: ${props => (props.mobile ? props.height + "px" : "100vh")};
+
+  > img {
+    user-select: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    bottom: 0;
+  }
 `;
 
 const LogoWrapper =  styled(FadeIn)`
@@ -78,8 +88,11 @@ class HeaderBg extends Component {
           height={window.innerHeight}
           delay={animationTimings.loadDelay + 0}
         >
+          {/* <img draggable="false" src={mainImg} /> */}
           {/* <img draggable="false" src={Logo} /> */}
         </LogoWrapper>
+
+        {/* <img draggable="false" src={backgroundImg} /> */}
       </StyledHeaderBg>
     );
   }

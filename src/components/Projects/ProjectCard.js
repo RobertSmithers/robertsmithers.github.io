@@ -90,7 +90,7 @@ const Medal = styled.img`
     height: 40px;
   }
   @media (max-width: ${viewport.MOBILE}) {
-    width: 90%;
+    width: 40%;
     height: auto;
   }
 `;
