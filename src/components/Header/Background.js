@@ -14,7 +14,7 @@ const StyledHeaderBg = styled.div`
   overflow-x: hidden;
   z-index: -100;
   position: relative;
-  background-color: ${theme.colors.darkblue};
+  background-color: ${theme.colors.main1};
   top: 0;
   left: 0;
 

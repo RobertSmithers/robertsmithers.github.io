@@ -31,9 +31,10 @@ const StyledCube = styled.div`
   z-index: -101;
   position: absolute;
 
-  width: 75px;
-  height: 75px;
-  background-color: ${theme.colors.blue};
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: ${theme.colors.gray};
 
   opacity: 0;
   transform: scale(0);

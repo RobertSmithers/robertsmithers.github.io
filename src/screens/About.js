@@ -41,6 +41,7 @@ class About extends Component {
     super(props);
   }
 
+  // gray2 and creme alternating
   render() {
     return (
       <StyledTransition>
@@ -48,7 +49,7 @@ class About extends Component {
           {state => (
             <StyledPage>
               <PageSection
-                color={theme.colors.gray2}
+                color={theme.colors.main2}
                 paddingBottom="50"
                 paddingTop="50"
               >
@@ -65,7 +66,7 @@ class About extends Component {
                 <HobbySection />
               </PageSection> */}
               <PageSection
-                color={theme.colors.creme}
+                color={theme.colors.main3}
                 paddingBottom="50"
                 paddingTop="50"
               >
@@ -76,7 +77,7 @@ class About extends Component {
               </PageSection>
               <PageSection
                 fullwidth={true}
-                color={theme.colors.gray2}
+                color={theme.colors.main2}
                 paddingBottom="50"
                 paddingTop="50"
               >
@@ -87,7 +88,7 @@ class About extends Component {
               </PageSection>
               <PageSection
                 fullwidth={true}
-                color={theme.colors.creme}
+                color={theme.colors.main3}
                 paddingBottom="0"
                 paddingTop="0"
               >

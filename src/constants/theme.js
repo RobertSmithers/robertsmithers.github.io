@@ -12,6 +12,19 @@ const colors = {
 
   black1: "rgb(41, 41, 41)",
 
+  // Paletton theme (I'm going for a Wood/Snow/Campfire ambiance)
+  darkwood: "rgb(33, 16, 0)",
+  wood: "rgb(50, 29, 8)",
+  lightwood: "rgb(83, 62, 41)",
+  whitewood: "rgb(100, 83, 66)",
+  gray: "rgb(140, 140, 140)",
+  darksnow: "rgb(120, 120, 120)",
+
+  // main1 = darksnow, main2 = gray2, main3 = creme
+  main1: "rgb(120, 120, 120)",
+  main2: "rgb(230, 230, 230)",
+  main3: "#f9f9f4",
+
   //Paletton color schema: Blue, Green, Purple
   primary1: "#3B71DB",
   primary2: "#305DB6",

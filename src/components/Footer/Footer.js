@@ -14,7 +14,7 @@ const StyledFooter = styled.div`
   z-index: 100;
   position: relative;
 
-  background-color: ${theme.colors.darkblue};
+  background-color: ${theme.colors.main1};
 
   padding-top: 30px;
 
@@ -36,7 +36,7 @@ const StyledIcon = styled.a`
   display: inline-block;
 
   transition: all 200ms ease-in-out;
-  background-color: ${theme.colors.blue};
+  background-color: ${theme.colors.gray};
 
   margin: 15px;
   padding: 10px;
