@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a9c6b094.css",
-    "main.js": "/static/js/main.799f8520.js",
+    "main.js": "/static/js/main.4c1c3651.js",
     "static/media/medal.png": "/static/media/medal.99a7a487cadb8a1be3f8.png",
     "static/media/hobbies-fitness-2.jpeg": "/static/media/hobbies-fitness-2.0595b163019ecb7f239e.jpeg",
     "static/media/hobbies-adventure.jpeg": "/static/media/hobbies-adventure.5290612cd16b809db6f9.jpeg",
     "static/media/hobbies-bc-football.JPEG": "/static/media/hobbies-bc-football.1d27f45c7361743349c6.JPEG",
     "static/media/hobbies-food.jpeg": "/static/media/hobbies-food.95cbd8d696fa6792d8f8.jpeg",
+    "static/media/hobbies-table-tennis.jpeg": "/static/media/hobbies-table-tennis.63333d8bc9f89f7b8788.jpeg",
     "static/media/gray-background.jpeg": "/static/media/gray-background.2cd26c0f3d990d308dfe.jpeg",
     "static/media/hobbies-surf.jpeg": "/static/media/hobbies-surf.ebf8009322ab53f4bffe.jpeg",
-    "static/media/robertsmithers.jpg": "/static/media/robertsmithers.e0b48fd48fb4b6abba86.jpg",
-    "static/media/hobbies-spartan-race.jpeg": "/static/media/hobbies-spartan-race.fa9f6709528b2d08ef63.jpeg",
+    "static/media/hobbies-rucking.jpeg": "/static/media/hobbies-rucking.048ff61df8b097c84306.jpeg",
+    "static/media/robertsmithers.jpg": "/static/media/robertsmithers.b8b44fe05da54ed17203.jpg",
     "static/media/det355-app.png": "/static/media/det355-app.ad3a3faf961da42d15bd.png",
     "static/media/PCGuard-1.png": "/static/media/PCGuard-1.be750879a399d9f1fb4b.png",
     "static/media/deed-a-day.png": "/static/media/deed-a-day.d061805d2b6eaf75c163.png",
@@ -20,19 +21,19 @@
     "static/media/ResumeGraphic.png": "/static/media/ResumeGraphic.e95358e9a00c288f00be.png",
     "static/media/bcgym-app.png": "/static/media/bcgym-app.1d5d86de5fce38c9b5d2.png",
     "static/media/deepfake.jpeg": "/static/media/deepfake.fe32ebd1d6023b351fda.jpeg",
-    "static/media/hobbies-icon-spartan-race.png": "/static/media/hobbies-icon-spartan-race.046758ede4710c0318fb.png",
     "static/media/pico-icon.png": "/static/media/pico-icon.868120a15b6c601222ec.png",
     "static/media/hobbies-icon-fitness.png": "/static/media/hobbies-icon-fitness.8400339ad67467194b9a.png",
     "static/media/hobbies-icon-football.png": "/static/media/hobbies-icon-football.dc69b25d140d7321a88a.png",
     "static/media/hobbies-icon-food.png": "/static/media/hobbies-icon-food.ff0482d24e1e5636edfb.png",
     "static/media/hobbies-icon-adventure.png": "/static/media/hobbies-icon-adventure.6c6d116e06941e8fb9ff.png",
     "static/media/audioEmotionClassifier.jpeg": "/static/media/audioEmotionClassifier.2cd22b34f0cea4c797e2.jpeg",
+    "static/media/hobbies-icon-rucking.png": "/static/media/hobbies-icon-rucking.b024641b91b19f7d3df8.png",
     "index.html": "/index.html",
     "main.a9c6b094.css.map": "/static/css/main.a9c6b094.css.map",
-    "main.799f8520.js.map": "/static/js/main.799f8520.js.map"
+    "main.4c1c3651.js.map": "/static/js/main.4c1c3651.js.map"
   },
   "entrypoints": [
     "static/css/main.a9c6b094.css",
-    "static/js/main.799f8520.js"
+    "static/js/main.4c1c3651.js"
   ]
 }
