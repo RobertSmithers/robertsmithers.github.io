@@ -85,12 +85,16 @@ const Medal = styled.img`
   transform: translate(-50%, -10%);
   object-fit: contain;
 
-  @media (max-width: 450px) {
-    width: 45px;
-    height: 40px;
+  @media (max-width: 950px) {
+    top: 180px;
+    bottom: auto;
+    right: 15%;
+    ${'' /* width: 45px;
+    height: 40px; */}
   }
   @media (max-width: ${viewport.MOBILE}) {
-    width: 40%;
+    top: 180px;
+    width: 20%;
     height: auto;
   }
 `;

@@ -55,7 +55,7 @@ class About extends Component {
               >
                 <SummarySection />
               </PageSection>
-              {/* <PageSection
+              <PageSection
                 color={theme.colors.gray2}
                 paddingBottom="50"
                 paddingTop="50"
@@ -64,7 +64,7 @@ class About extends Component {
                   <h2>Hobbies</h2>
                 </Divider>
                 <HobbySection />
-              </PageSection> */}
+              </PageSection>
               <PageSection
                 color={theme.colors.main3}
                 paddingBottom="50"

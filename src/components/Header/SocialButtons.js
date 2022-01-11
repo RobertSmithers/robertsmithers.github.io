@@ -88,7 +88,7 @@ const SocialButtons = () => {
           </StyledIcon>
         </a>
         <a
-          href="https://www.linkedin.com/in/robertsmithers/"
+          href="https://www.linkedin.com/in/robert-smithers/"
           target="_blank"
           rel="noopener noreferrer"
         >

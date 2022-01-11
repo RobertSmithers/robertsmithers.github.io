@@ -1,10 +1,10 @@
 # My Portfolio Website 
 
-This is the first version of my personal website. It contains important information about my projects, who I am, and what I am looking to do!
+This is the first version of [my personal website](https://robertsmithers.github.io). It contains important information about my projects, who I am, and what I am looking to do!
 
 ## Table of Contents
 
-**[Setup](#setup)**
+**[Setup](#setup)** <br>
 **[Dependencies](dependencies)**
 
 ### Setup

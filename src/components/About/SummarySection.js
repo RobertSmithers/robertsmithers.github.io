@@ -3,6 +3,8 @@ import React from "react";
 import styled from "styled-components";
 
 import portraitImg from "../../assets/robertsmithers.jpg";
+import theme from "../../constants/theme.js";
+// import mePic from "../../assets/me.jpeg";
 
 const StyledSummarySection = styled.div`
   display: flex;
@@ -35,6 +37,7 @@ const Portrait = styled.img`
   width: 300px;
   height: 300px;
 
+  border: 5px solid ${theme.colors.main1};;
   border-radius: 15px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
 
@@ -50,10 +53,9 @@ const SummarySection = () => {
       <Portrait draggable="false" src={portraitImg} />
       <div className="textWrapper">
         <p>
-          <strong>Howdy!</strong>
-          <br /> I'm Robert, a CS student at Boston
-          College. I love to play around with and self-learn the latest cutting-edge
-          technologies and to use them to make cool utilities!
+          <strong>Dear MIT Graduate Admissions,</strong>
+          <br /> Welcome to my website! I'm glad you made it here. I built this portfolio website especially for you,
+          so I hope you enjoy it (and the rest of my application). Go Engineers!
         </p>
       </div>
     </StyledSummarySection>

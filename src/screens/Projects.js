@@ -53,7 +53,7 @@ const Projects = () => {
       />
       <ProjectCard
         title="ML Stock Predictor (2.0)"
-        date="April 2018"
+        date="October 2021"
         image={stockSentiment}
         description="Improving the ML Stock Predictor 1.0 project that I already worked on,
         I optimistically looked at adding offset market data of other stocks to identify pair-trading patterns.
@@ -66,7 +66,7 @@ const Projects = () => {
       />
       <ProjectCard
         title="Det 355 iOS Application"
-        date="April 2018"
+        date="September 2019 - October 2021"
         image={det355AppLogo}
         description="The official Air Force ROTC Detachment 355 iOS utility. It includes plenty of useful military resources,
         Firebase authentication, nifty social features, data storage, real-time syncronization across devices, push notifications,
@@ -79,7 +79,7 @@ const Projects = () => {
       />
       <ProjectCard
         title="BC Gym-Signup"
-        date="April 2018"
+        date="February 2021"
         image={bcGymApp}
         description="When COVID came around and university gym slots were limited, obtaining one was near impossible and would
         completely fill up within a minute of being released. So, I made this utility to automatically sign me and my friends up :)
@@ -91,7 +91,7 @@ const Projects = () => {
       />
       <ProjectCard
         title="PCGuard"
-        date="December 2020"
+        date="May 2020"
         image={pcGuard}
         description="One of my first iOS projects, PCGuard can monitor your devices, give you real-time updates
         on security vulnerabilities, and here's my favorite part: you can secure your device directly from the app.
@@ -138,7 +138,7 @@ const Projects = () => {
       <ProjectCard
         title="Pico"
         image={picoIcon}
-        date="June 2018"
+        date="September 2018"
         description="A quick social-utility application built at HackMIT by Robert Smithers, Robert Zhang,
         Jacques Spiere, and Tyler Li. Pico is an iOS app that integrates major social media platforms and allows
         users to share and connect with others easily on whichever platforms they like. 🏆 Project Top-10 Contender
@@ -150,7 +150,7 @@ const Projects = () => {
       />
       <ProjectCard
         title="Digit Recognizer"
-        date="November 2018"
+        date="June 2018"
         image={digitRecognizer}
         description="This is where my passion for computer science first started. I keep this
         project on my website for memory's sake! This high school endeavor was

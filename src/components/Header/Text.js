@@ -52,7 +52,7 @@ const HeaderText = props => {
   return (
     <StyledText delay={animationTimings.loadDelay + 550}>
       <h1>Robert Smithers</h1>
-      <h4>Air Force, Machine Learning, iOS Development, Cybersecurity</h4>
+      <h4>Air Force, Machine Learning, Computational Science, Cybersecurity</h4>
     </StyledText>
   );
 };

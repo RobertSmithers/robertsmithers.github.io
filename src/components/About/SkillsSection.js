@@ -26,7 +26,7 @@ const SkillBox = styled.div`
   padding-left: 10px;
   margin-bottom: 15px;
 
-  text-align: left;
+  text-align: center;
 
   .items {
     display: flex;
@@ -52,6 +52,7 @@ const SkillsSection = props => {
         </Divider>
         <div className="items">
           <p>C</p>
+          <p>C++</p>
           <p>CSS</p>
           <p>Go</p>
           <p>HTML</p>
