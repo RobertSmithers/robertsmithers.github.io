@@ -63,6 +63,10 @@ class Cube extends Component {
     this.setState({ duration: newProps.duration });
   };
 
+  // componentDidUpdate = newProps => {
+  //   this.setState({ duration: newProps.duration });
+  // };
+
   componentDidMount = () => {
     window.setTimeout(() => this.setState({ display: "none" }), 10000);
   };

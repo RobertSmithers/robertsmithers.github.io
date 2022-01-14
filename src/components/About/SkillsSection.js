@@ -32,7 +32,7 @@ const SkillBox = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     > p {
       margin: 6px 15px 6px 0px;
     }

@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { viewport } from "../../constants/viewport";
 
+import { NavLink } from "react-router-dom";
+
 const SCarousel = styled.div`
   overflow-y: hidden;
   position: relative;
@@ -69,6 +71,9 @@ class Carousel extends Component {
           className={"carousel-item level" + level}
           id={index}
           level={level}
+          // Idea: I could push a special thing here to indicate center vs left/right card
+          // and that could indicate if rendered as <a> or not. But then when rotate, the current middle (new edge)
+          // needs to rerender because it's no longer a link
           component={items[index]}
           moveLeft={this.moveLeft}
           moveRight={this.moveRight}
@@ -118,23 +123,39 @@ class CarouselItem extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      level: this.props.level
+      level: this.props.level,
+      component: this.props.component
     };
   }
 
-  moveItem = level => {
+  moveItem = (level, component) => {
     if (level > 0) this.props.moveLeft();
     if (level < 0) this.props.moveRight();
+    if (level == 0) {
+    //   console.log(component);
+      // console.log("Navigate to", component.props.link);
+    //   // window.location.assign(component.props.link);
+    }
   };
 
   render() {
     return (
-      <div
-        className={"carousel-item level" + this.props.level}
-        onClick={() => this.moveItem(this.props.level)}
-      >
-        {this.props.component}
-      </div>
+      // this.props.level == 0 ?
+      //   <NavLink to={this.props.component.props.link}>
+      //     <div
+      //       className={"carousel-item level" + this.props.level}
+      //       onClick={() => this.moveItem(this.props.level, this.props.component)}
+      //     >
+      //       {this.props.component}
+      //     </div>
+      //   </NavLink>
+      // :
+        <div
+          className={"carousel-item level" + this.props.level}
+          onClick={() => this.moveItem(this.props.level, this.props.component)}
+        >
+          {this.props.component}
+        </div>
     );
   }
 }

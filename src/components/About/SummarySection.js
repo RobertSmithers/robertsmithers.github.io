@@ -54,7 +54,8 @@ const SummarySection = () => {
       <div className="textWrapper">
         <p>
           <strong>Dear MIT Graduate Admissions,</strong>
-          <br /> Welcome to my website! I'm glad you made it here. I built this portfolio website especially for you,
+          <br /> Welcome to my website! I'm Robert Smithers, an applicant for your CSE Graduate Program.
+          I'm glad you made it here. I built this portfolio website especially for you,
           so I hope you enjoy it (and the rest of my application). Go Engineers!
         </p>
       </div>

@@ -29,9 +29,9 @@ const Projects = () => {
         title="Deepfake Detection"
         date="December 2021"
         image={deepfake}
-        description="A couple friends and I took a crack at a Kaggle challenge,
-        aiming to identify deepfake and non-deepfake video from 10-second clips. We achieved
-        95% accuracy through careful data curation and model training techniques."
+        description="Think you can identify deepfakes better than an AI? This RESNET architecture 
+        differentiates deepfake and non-deepfake videos with the help of face-detection and cropping in data curation.
+        I achieved 95% accuracy through careful data augentation and model training techniques."
         website=""
         github="https://github.com/RobertSmithers/DeepfakeDetection"
         readMore=""

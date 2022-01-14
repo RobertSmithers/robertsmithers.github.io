@@ -27,17 +27,17 @@ const StyledProjectsSection = styled.div`
 `;
 
 let projects = [
-  <Card title="Price-Based ML Stock Predictor" image={stockPred} />,
-  <Card title="Pico" image={picoIcon} />,
-  <Card title="Det 355 iOS App" image={det355AppLogo} />,
-  <Card title="BC Gym Signup" image={bcGymApp} />,
-  <Card title="Sentiment ML Stock Predictor" image={stockSentiment} />,
-  <Card title="PC Guard" image={pcGuard} />,
-  <Card title="Deed a Day" image={deedADay} />,
-  <Card title="Deep Fake Classification" image={deepfake} />,
-  <Card title="Solubility Predictor" image={solubilityPrediction} />,
-  <Card title="Digit Recognizer" image={digitRecognizer} />,
-  <Card title="Audio Emotion Classifier" image={audioEmotionClassifier} />,
+  <Card title="Price-Based ML Stock Predictor" image={stockPred} link="/projects#stock1.0"/>,
+  <Card title="Pico" image={picoIcon} link="/projects#pico" />,
+  <Card title="Det 355 iOS App" image={det355AppLogo} link="/projects#det355" />,
+  <Card title="BC Gym Signup" image={bcGymApp} link="/projects#gym-signup" />,
+  <Card title="Sentiment ML Stock Predictor" image={stockSentiment} link="/projects#stock2.0" />,
+  <Card title="PC Guard" image={pcGuard} link="/projects#pc-guard" />,
+  <Card title="Deed a Day" image={deedADay} link="/projects#deed" />,
+  <Card title="Deep Fake Classification" image={deepfake} link="/projects#deep-fake" />,
+  <Card title="Solubility Predictor" image={solubilityPrediction} link="/projects#solubility" />,
+  <Card title="Digit Recognizer" image={digitRecognizer} link="/projects#digit-recognizer" />,
+  <Card title="Audio Emotion Classifier" image={audioEmotionClassifier} link="/projects#emotion-classifier" />,
 ];
 
 const ProjectsSection = props => {
