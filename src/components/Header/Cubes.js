@@ -59,7 +59,7 @@ class Cube extends Component {
       display: "block"
     };
   }
-  componentWillReceiveProps = newProps => {
+  UNSAFE_componentWillReceiveProps = newProps => {
     this.setState({ duration: newProps.duration });
   };
 
