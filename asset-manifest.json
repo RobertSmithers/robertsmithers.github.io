@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9c6b094.css",
-    "main.js": "/static/js/main.223666ea.js",
+    "main.js": "/static/js/main.fe578517.js",
     "static/media/medal.png": "/static/media/medal.99a7a487cadb8a1be3f8.png",
     "static/media/hobbies-fitness-2.jpeg": "/static/media/hobbies-fitness-2.0595b163019ecb7f239e.jpeg",
     "static/media/hobbies-adventure.jpeg": "/static/media/hobbies-adventure.5290612cd16b809db6f9.jpeg",
@@ -12,6 +12,7 @@
     "static/media/hobbies-surf.jpeg": "/static/media/hobbies-surf.ebf8009322ab53f4bffe.jpeg",
     "static/media/hobbies-rucking.jpeg": "/static/media/hobbies-rucking.048ff61df8b097c84306.jpeg",
     "static/media/robertsmithers.jpg": "/static/media/robertsmithers.b8b44fe05da54ed17203.jpg",
+    "static/media/tic-tac-toe-image.png": "/static/media/tic-tac-toe-image.55f0fcaef31f39a86ebd.png",
     "static/media/det355-app.png": "/static/media/det355-app.ad3a3faf961da42d15bd.png",
     "static/media/PCGuard-1.png": "/static/media/PCGuard-1.be750879a399d9f1fb4b.png",
     "static/media/deed-a-day.png": "/static/media/deed-a-day.d061805d2b6eaf75c163.png",
@@ -20,6 +21,7 @@
     "static/media/stock-sentiment.jpeg": "/static/media/stock-sentiment.341a6bd5be4f4d5b8e81.jpeg",
     "static/media/MITlogo.jpeg": "/static/media/MITlogo.ec1a06388074f279226e.jpeg",
     "static/media/ResumeGraphic.png": "/static/media/ResumeGraphic.e95358e9a00c288f00be.png",
+    "static/media/pizzaASR.png": "/static/media/pizzaASR.53e7628f29770de95b4e.png",
     "static/media/bcgym-app.png": "/static/media/bcgym-app.1d5d86de5fce38c9b5d2.png",
     "static/media/deepfake.jpeg": "/static/media/deepfake.fe32ebd1d6023b351fda.jpeg",
     "static/media/pico-icon.png": "/static/media/pico-icon.868120a15b6c601222ec.png",
@@ -29,12 +31,13 @@
     "static/media/hobbies-icon-adventure.png": "/static/media/hobbies-icon-adventure.6c6d116e06941e8fb9ff.png",
     "static/media/audioEmotionClassifier.jpeg": "/static/media/audioEmotionClassifier.2cd22b34f0cea4c797e2.jpeg",
     "static/media/hobbies-icon-rucking.png": "/static/media/hobbies-icon-rucking.b024641b91b19f7d3df8.png",
+    "static/media/p2pImage.jpeg": "/static/media/p2pImage.cf3e24e3dbc50d4bf733.jpeg",
     "index.html": "/index.html",
     "main.a9c6b094.css.map": "/static/css/main.a9c6b094.css.map",
-    "main.223666ea.js.map": "/static/js/main.223666ea.js.map"
+    "main.fe578517.js.map": "/static/js/main.fe578517.js.map"
   },
   "entrypoints": [
     "static/css/main.a9c6b094.css",
-    "static/js/main.223666ea.js"
+    "static/js/main.fe578517.js"
   ]
 }
