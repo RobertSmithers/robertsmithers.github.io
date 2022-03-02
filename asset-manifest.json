@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9c6b094.css",
-    "main.js": "/static/js/main.fe578517.js",
+    "main.js": "/static/js/main.4ce56171.js",
     "static/media/medal.png": "/static/media/medal.99a7a487cadb8a1be3f8.png",
     "static/media/hobbies-fitness-2.jpeg": "/static/media/hobbies-fitness-2.0595b163019ecb7f239e.jpeg",
     "static/media/hobbies-adventure.jpeg": "/static/media/hobbies-adventure.5290612cd16b809db6f9.jpeg",
@@ -34,10 +34,10 @@
     "static/media/p2pImage.jpeg": "/static/media/p2pImage.cf3e24e3dbc50d4bf733.jpeg",
     "index.html": "/index.html",
     "main.a9c6b094.css.map": "/static/css/main.a9c6b094.css.map",
-    "main.fe578517.js.map": "/static/js/main.fe578517.js.map"
+    "main.4ce56171.js.map": "/static/js/main.4ce56171.js.map"
   },
   "entrypoints": [
     "static/css/main.a9c6b094.css",
-    "static/js/main.fe578517.js"
+    "static/js/main.4ce56171.js"
   ]
 }
