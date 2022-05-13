@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.a9c6b094.css",
-    "main.js": "/static/js/main.4fc69b7b.js",
+    "main.js": "/static/js/main.762a2c00.js",
     "static/media/medal.png": "/static/media/medal.99a7a487cadb8a1be3f8.png",
     "static/media/hobbies-fitness-2.jpeg": "/static/media/hobbies-fitness-2.0595b163019ecb7f239e.jpeg",
     "static/media/hobbies-adventure.jpeg": "/static/media/hobbies-adventure.5290612cd16b809db6f9.jpeg",
+    "static/media/teethSegmentation.png": "/static/media/teethSegmentation.4425ce1f958a2433c799.png",
     "static/media/hobbies-bc-football.JPEG": "/static/media/hobbies-bc-football.1d27f45c7361743349c6.JPEG",
     "static/media/hobbies-food.jpeg": "/static/media/hobbies-food.95cbd8d696fa6792d8f8.jpeg",
     "static/media/hobbies-table-tennis.jpeg": "/static/media/hobbies-table-tennis.63333d8bc9f89f7b8788.jpeg",
     "static/media/gray-background.jpeg": "/static/media/gray-background.2cd26c0f3d990d308dfe.jpeg",
     "static/media/hobbies-surf.jpeg": "/static/media/hobbies-surf.ebf8009322ab53f4bffe.jpeg",
     "static/media/hobbies-rucking.jpeg": "/static/media/hobbies-rucking.048ff61df8b097c84306.jpeg",
-    "static/media/robertsmithers.jpg": "/static/media/robertsmithers.b8b44fe05da54ed17203.jpg",
+    "static/media/socialMediaPFP.jpeg": "/static/media/socialMediaPFP.792e3d2071b90195fb15.jpeg",
     "static/media/tic-tac-toe-image.png": "/static/media/tic-tac-toe-image.55f0fcaef31f39a86ebd.png",
     "static/media/det355-app.png": "/static/media/det355-app.ad3a3faf961da42d15bd.png",
     "static/media/PCGuard-1.png": "/static/media/PCGuard-1.be750879a399d9f1fb4b.png",
@@ -23,6 +24,7 @@
     "static/media/ResumeGraphic.png": "/static/media/ResumeGraphic.e95358e9a00c288f00be.png",
     "static/media/pizzaASR.png": "/static/media/pizzaASR.53e7628f29770de95b4e.png",
     "static/media/bcgym-app.png": "/static/media/bcgym-app.1d5d86de5fce38c9b5d2.png",
+    "static/media/industryML.jpg": "/static/media/industryML.8663888ff1ef11dc9404.jpg",
     "static/media/deepfake.jpeg": "/static/media/deepfake.fe32ebd1d6023b351fda.jpeg",
     "static/media/pico-icon.png": "/static/media/pico-icon.868120a15b6c601222ec.png",
     "static/media/hobbies-icon-fitness.png": "/static/media/hobbies-icon-fitness.8400339ad67467194b9a.png",
@@ -34,10 +36,10 @@
     "static/media/p2pImage.jpeg": "/static/media/p2pImage.cf3e24e3dbc50d4bf733.jpeg",
     "index.html": "/index.html",
     "main.a9c6b094.css.map": "/static/css/main.a9c6b094.css.map",
-    "main.4fc69b7b.js.map": "/static/js/main.4fc69b7b.js.map"
+    "main.762a2c00.js.map": "/static/js/main.762a2c00.js.map"
   },
   "entrypoints": [
     "static/css/main.a9c6b094.css",
-    "static/js/main.4fc69b7b.js"
+    "static/js/main.762a2c00.js"
   ]
 }
