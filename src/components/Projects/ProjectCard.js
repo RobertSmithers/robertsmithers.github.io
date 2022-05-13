@@ -4,7 +4,7 @@ import { viewport } from "../../constants/viewport";
 import styled from "styled-components";
 import Divider from "../../components/generic/Divider";
 import RoundButton from "../../components/generic/RoundButton";
-import awardImg from "../../assets/medal.png";
+import awardImg from "../../assets/projects/medal.png";
 
 const PICTURE_BOTTOM_MARGIN = 30;
 

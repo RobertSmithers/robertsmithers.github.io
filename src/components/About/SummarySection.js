@@ -2,7 +2,9 @@ import React from "react";
 
 import styled from "styled-components";
 
-import portraitImg from "../../assets/robertsmithers.jpg";
+import portraitImg from "../../assets/socialMediaPFP.jpeg";
+// "../../assets/robertsmithers.jpg"; MIT Grad Admissions
+
 import theme from "../../constants/theme.js";
 // import mePic from "../../assets/me.jpeg";
 
@@ -53,10 +55,14 @@ const SummarySection = () => {
       <Portrait draggable="false" src={portraitImg} />
       <div className="textWrapper">
         <p>
-          <strong>Dear MIT Graduate Admissions,</strong>
+          {/* <strong>Dear MIT Graduate Admissions,</strong>
           <br /> Welcome to my website! I'm Robert Smithers, an applicant for your CSE Graduate Program.
           I'm glad you made it here. I built this portfolio website especially for you,
-          so I hope you enjoy it (and the rest of my application). Go Engineers!
+          so I hope you enjoy it (and the rest of my application). Go Engineers! */}
+          <strong>Welcome to my website!,</strong>
+          <br /> I'm Robert Smithers, a software engineer and machine learning enthusiast.
+          I'm glad you made it here. I built this portfolio website to share just a bit of my life with you,
+          so I hope you enjoy it! If you haven't already connected with me, I would love to chat - add me on LinkedIn.
         </p>
       </div>
     </StyledSummarySection>

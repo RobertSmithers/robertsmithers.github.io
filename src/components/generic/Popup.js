@@ -8,7 +8,7 @@ import popupImage from "../../assets/MITlogo.jpeg";
 import FadeIn from "../../components/generic/FadeIn";
 import { animationTimings } from "../../constants/animationTimings";
 
-import placeholder from "../../assets/gray-background.jpeg";
+import placeholder from "../../assets/projects/gray-background.jpeg";
 import { Button } from "react-scroll";
 import { isCompositeComponent } from "react-dom/cjs/react-dom-test-utils.production.min";
 

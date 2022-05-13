@@ -34,8 +34,6 @@ class App extends Component {
 
     // Fireworks and zoom to section
     if (resp) {
-      console.log("FIREWORKS position: fixed and ZOOM TO SECTION");
-
       // Delay on scroll after 1 second
       setTimeout(function() {
         // Zoom to about section

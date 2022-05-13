@@ -28,7 +28,7 @@ import foodPic from "../../assets/hobbies/hobbies-food.jpeg";
 import hobbiesSurfIcon from "../../assets/hobbies/hobbies-icon-surf.png";
 import surfPic  from "../../assets/hobbies/hobbies-surf.jpeg";
 
-import placeholder from "../../assets/gray-background.jpeg";
+import placeholder from "../../assets/projects/gray-background.jpeg";
 
 const StyledHobbySection = styled.div`
   display: flex;

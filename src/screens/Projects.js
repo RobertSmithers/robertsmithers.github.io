@@ -5,19 +5,24 @@ import Divider from "../components/generic/Divider";
 import PageSection from "../components/generic/PageSection";
 import ProjectCard from "../components/Projects/ProjectCard";
 
-import picoIcon from "../assets/pico-icon.png";
-import det355AppLogo from "../assets/det355-app.png"; 
-import mlStockPredictor from "../assets/ml-stock-predictor.jpeg";
-import bcGymApp from "../assets/bcgym-app.png";
-import stockSentiment from "../assets/stock-sentiment.jpeg";
-import pcGuard from "../assets/PCGuard-1.png";
-import deedADay from "../assets/deed-a-day.png";
-import deepfake from "../assets/deepfake.jpeg";
-import solubilityPrediction from "../assets/solubilityPrediction.jpeg";
-import digitRecognizer from "../assets/digitRecognizer.png";
-import audioEmotionClassifier from "../assets/audioEmotionClassifier.jpeg";
+import teethSegmentation from "../assets/projects/teethSegmentation.png";
+import industryPricePrediction from "../assets/projects/industryML.jpg";
+import picoIcon from "../assets/projects/pico-icon.png";
+import det355AppLogo from "../assets/projects/det355-app.png"; 
+import mlStockPredictor from "../assets/projects/ml-stock-predictor.jpeg";
+import bcGymApp from "../assets/projects/bcgym-app.png";
+import stockSentiment from "../assets/projects/stock-sentiment.jpeg";
+import pcGuard from "../assets/projects/PCGuard-1.png";
+import deedADay from "../assets/projects/deed-a-day.png";
+import deepfake from "../assets/projects/deepfake.jpeg";
+import solubilityPrediction from "../assets/projects/solubilityPrediction.jpeg";
+import digitRecognizer from "../assets/projects/digitRecognizer.png";
+import audioEmotionClassifier from "../assets/projects/audioEmotionClassifier.jpeg";
+import p2pFileService from "../assets/projects/p2pImage.jpeg";
+import ticTacToe from "../assets/projects/tic-tac-toe-image.png";
+import pizzaDeliveryASR from "../assets/projects/pizzaASR.png";
 
-import placeholderImg from "../assets/gray-background.jpeg";
+import placeholderImg from "../assets/projects/gray-background.jpeg";
 
 const Projects = () => {
   return (
@@ -26,12 +31,40 @@ const Projects = () => {
         <h2>My Projects</h2>
       </Divider>
       <ProjectCard
+        title="ML Teeth Segmentation"
+        date="May 2022"
+        image={teethSegmentation}
+        description="Teeth Labelling is not a brand new field of study, though the amount of
+        available data is limited and rarely open-source. With this teeth segmentation utility,
+        artifical intelligence can instantly and autonomously label teeth scans to
+        identify malformed, missing, or other anomalies relating to the count and
+        placement of teeth, a vital aide to dentistry personnel worldwide."
+        website=""
+        github="https://github.com/RobertSmithers/TeethSegmentation"
+        readMore=""
+        medalWinner={false}
+      />
+      <ProjectCard
+        title="Annual Sector Performance Prediction"
+        date="March 2022"
+        image={industryPricePrediction}
+        description="The stock market is volatile and some may even say indeterministic. Perhaps. But what
+        if we could find broader patterns in the market and predict stock movement before it happens.
+        By looking at yearly performance of entire sectors of the S&P 500 relative to the S&P 500 itself,
+        we can eliminate much of the noise generated from human unpredictability in the market.
+        I aimed to identify these trends."
+        website=""
+        github="https://github.com/RobertSmithers/IndustryPricePrediction"
+        readMore=""
+        medalWinner={false}
+      />
+      <ProjectCard
         title="Deepfake Detection"
         date="December 2021"
         image={deepfake}
         description="Think you can identify deepfakes better than an AI? This RESNET architecture 
         differentiates deepfake and non-deepfake videos with the help of face-detection and cropping in data curation.
-        I achieved 95% accuracy through careful data augentation and model training techniques."
+        I achieved 95% accuracy through careful data augmentation and model training techniques."
         website=""
         github="https://github.com/RobertSmithers/DeepfakeDetection"
         readMore=""
@@ -44,7 +77,7 @@ const Projects = () => {
         description="Predicting the solubility rate of a molecule is no easy task,
         especially when only given chemical formulas. In this project, see how I
         generated data using quantum-mechanic libraries MOPAC and ASE and trained a
-        custom Graph Neural Network. This project has heavy application to future pharmaceutical
+        custom Graph Neural Network. This project heavily applies to future pharmaceutical
         research, medical breakthroughs, and efficiency in the oil industry."
         website=""
         github="https://github.com/RobertSmithers/PredictingSolubility"
@@ -108,9 +141,43 @@ const Projects = () => {
         description="This NLP challenge aimed to classify audio files into 1 of 7 emotions. I extracted 
         Mel Frequency Cepstral Coefficients and magnitude/frequency data
         and built a custom 3-layer convolution with max-pooling neural network.
-        This project ranked 1st place out of 40 students."
+        🏆 This project ranked 1st place out of 40 students."
         website=""
         github="https://github.com/RobertSmithers/Speech-Processing-Classifying-Emotion"
+        readMore=""
+        medalWinner={true}
+      />
+      <ProjectCard
+        title="P2P File Sharing Service"
+        date="November 2020"
+        image={p2pFileService}
+        description="Recreate the framework behind Napster in a weekend! In this Peer-to-Peer file sharing service, 
+        I explore TCP networking in Java and the dynamics of a concurrent file sharing among multiple endpoints. This 
+        was a fun project and just goes to show that anyone could make a super successful company from a small idea."
+        website=""
+        github="https://github.com/RobertSmithers/P2P-File-Service"
+        readMore=""
+        medalWinner={false}
+      />
+      <ProjectCard
+        title="Online Tic Tac Toe"
+        date="November 2020"
+        image={ticTacToe}
+        description="Two players, 1 server, head-to-head online Tic Tac Toe. Need I say more?"
+        website=""
+        github="https://github.com/RobertSmithers/MultiPlayer-Tic-Tac-Toe"
+        readMore=""
+        medalWinner={false}
+      />
+      <ProjectCard
+        title="Pizza Delivery ASR"
+        date="October 2020"
+        image={pizzaDeliveryASR}
+        description="In this Hackathon, I built an Audio Speech Recognition program to conduct
+        speech to text translation of pizza delivery orders. 🏆 My implementation ranked 1st place
+        out of over 40 competitors. Boy was this a fun one!"
+        website=""
+        github="https://github.com/RobertSmithers/Pizza-Delivery-ASR"
         readMore=""
         medalWinner={true}
       />

@@ -53,10 +53,7 @@ class Header extends Component {
       <React.Fragment>
         <Background />
         <SocialButtons />
-        <PopupView height={window.innerHeight}>
-          {/* MIT Popup for graduate admissions! */}
-          {this.state.showModal ? <MIT_Popup modalCallback={this.removeModalView} /> : null}
-        </PopupView>
+        
         <HeaderContent height={window.innerHeight}>
           <Text />
           <NavBar props />
@@ -67,5 +64,13 @@ class Header extends Component {
     );
   }
 }
+
+/*
+Goes after social buttons, before HeaderContent
+<PopupView height={window.innerHeight}>
+  {/* MIT Popup for graduate admissions! }
+  {this.state.showModal ? <MIT_Popup modalCallback={this.removeModalView} /> : null}
+</PopupView>
+*/
 
 export default Header;
